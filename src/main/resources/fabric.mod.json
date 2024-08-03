@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "pride-sheep",
+  "version": "${version}",
+  "name": "Pride Sheep",
+  "description": "Adds pride sheep 🏳️‍🌈🏳️‍⚧️",
+  "authors": ["diacritics-owo"],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/pride-sheep/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["diacritics.owo.PrideSheep"],
+    "client": ["diacritics.owo.PrideSheepClient"]
+  },
+  "mixins": [
+    "pride-sheep.mixins.json",
+    {
+      "config": "pride-sheep.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
