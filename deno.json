@@ -1,0 +1,15 @@
+{
+  "fmt": {
+    "indentWidth": 2,
+    "semiColons": true,
+    "singleQuote": true,
+    "useTabs": false
+  },
+  "tasks": {
+    "textures": "deno run --allow-read --allow-write scripts/textures.ts"
+  },
+  "imports": {
+    "@std/path": "jsr:@std/path@^1.0.2",
+    "pngs": "https://deno.land/x/pngs@0.1.1/mod.ts"
+  }
+}
