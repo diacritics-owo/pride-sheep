@@ -6,7 +6,8 @@
     "useTabs": false
   },
   "tasks": {
-    "textures": "deno run --allow-read --allow-write scripts/textures.ts"
+    "textures": "deno run --allow-read --allow-write scripts/textures.ts",
+    "images": "deno run --allow-read --allow-write scripts/images.ts"
   },
   "imports": {
     "@std/path": "jsr:@std/path@^1.0.2",

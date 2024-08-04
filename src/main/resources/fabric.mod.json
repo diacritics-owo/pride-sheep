@@ -3,11 +3,11 @@
   "id": "pride-sheep",
   "version": "${version}",
   "name": "Pride Sheep",
-  "description": "Adds pride sheep 🏳️‍🌈🏳️‍⚧️",
+  "description": "Adds pride textures for nametagged sheep 🏳️‍🌈🏳️‍⚧️",
   "authors": ["diacritics-owo"],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://modrinth.com/project/pride-sheep",
+    "sources": "https://github.com/diacritics-owo/pride-sheep"
   },
   "license": "MIT",
   "icon": "assets/pride-sheep/icon.png",

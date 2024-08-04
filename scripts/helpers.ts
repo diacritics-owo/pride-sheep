@@ -15,6 +15,13 @@ export const texture = (file: string) =>
     file,
   );
 
+export const image = (file: string) =>
+  resolve(
+    new URL('.', import.meta.url).pathname,
+    '../images',
+    file,
+  );
+
 export const hex = (color: number): [number, number, number] => [
   color >> 16 & 255,
   color >> 8 & 255,
