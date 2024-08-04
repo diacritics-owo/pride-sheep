@@ -4,6 +4,10 @@ Adds pride textures for nametagged sheep 🏳️‍🌈🏳️‍⚧️
 
 <img src="images/ingame.png" alt="a screenshot showing a trans flag sheep in-game" />
 
+## Adding Your Own Textures
+
+To add your own pride flags, create a resource pack. Use the texture `minecraft:textures/entity/sheep/sheep_fur.png` as a template and put your textures in `pride-sheep:textures/entity/sheep/` (must be PNGs). Sheep named `pride_` and then the file name will show your custom texture.
+
 ## Usage
 
 Naming a sheep `pride_` suffixed with any of the following will change the
@@ -40,7 +44,3 @@ sheep's texture to the respective pride flag:
   <img src="images/pansexual.png" alt="pansexual sheep" />
 - `trans`
   <img src="images/trans.png" alt="trans sheep" />
-
-## Adding Your Own
-
-To add your own pride flags, create a resource pack. Use the texture `minecraft:textures/entity/sheep/sheep_fur.png` as a template and put your textures in `pride-sheep:textures/entity/sheep/` (must be PNGs). Sheep named `pride_` and then the file name will show your custom texture.
