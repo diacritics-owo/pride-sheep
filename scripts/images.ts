@@ -4,7 +4,7 @@ import { asset, image, texture, width } from './helpers.ts';
 const sheep = decode(await Deno.readFile(asset('sheep.png'))).image;
 
 [
-  'aroace',
+  'agender',
   'aromantic',
   'asexual',
   'bisexual',

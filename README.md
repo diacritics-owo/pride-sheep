@@ -14,14 +14,14 @@ Naming a sheep `pride_` suffixed with any of the following will change the
 sheep's texture to the respective pride flag:
 
 - `pride` for the classic pride flag
-  <img src="images/pride.png" alt="aroace sheep" />
+  <img src="images/pride.png" alt="pride sheep" />
 - `progress` for the progress pride flag
-  <img src="images/progress.png" alt="aroace sheep" />
+  <img src="images/progress.png" alt="progress pride sheep" />
 
 ---
 
-- `aroace`
-  <img src="images/aroace.png" alt="aroace sheep" />
+- `agender`
+  <img src="images/agender.png" alt="agender sheep" />
 - `aromantic`
   <img src="images/aromantic.png" alt="aromantic sheep" />
 - `asexual`

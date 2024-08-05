@@ -101,7 +101,7 @@ const lesbian = colormap(
   0xb55690,
   0xa50062,
 );
-const aroace = colormap(
+const agender = colormap(
   0x000000,
   0xbcc4c7,
   0xffffff,
@@ -132,4 +132,4 @@ write('aromantic', aromantic, five);
 write('pride', pride, six);
 write('gay', gay, seven);
 write('lesbian', lesbian, seven);
-write('aroace', aroace, seven);
+write('agender', agender, seven);
